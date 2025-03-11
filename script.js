@@ -9,7 +9,7 @@ let currentUserMessage = null;
 let isGeneratingResponse = false;
 
 const GOOGLE_API_KEY = "AIzaSyCC4u0mpE3r2JoIDfcR8M7WmHAWAEyNBXU"; // Bukan Apikey Gw 😂😂
-const API_REQUEST_URL = `https://generativelanguage.googleapis.com/v1/models/gemini-1.5-pro:generateContent?key=${GOOGLE_API_KEY}`;
+const API_REQUEST_URL = `https://generativelanguage.googleapis.com/v1/models/gemini-1.5-pro:generateContent?key=AIzaSyCC4u0mpE3r2JoIDfcR8M7WmHAWAEyNBXU`;
 
 const loadSavedChatHistory = () => {
     const savedConversations = JSON.parse(localStorage.getItem("saved-api-chats")) || [];
